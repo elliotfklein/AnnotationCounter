@@ -1,0 +1,14 @@
+{
+    "name": "Annotation Counter",
+    "version": "3.14",
+    "description": "Count IDs of videos annotated!!",
+    "permissions": ["storage"],
+    "background": {
+    "scripts":["background.js"]
+    },
+    "permissions": [
+        "storage",
+        "tabs"
+    ],
+    "manifest_version": 2
+  }
