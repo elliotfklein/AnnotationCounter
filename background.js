@@ -18,7 +18,7 @@ chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {
             window.localStorage.setItem(KEY, ids);                      //where the string contains itself (e.g. "447" and "47")
             
         } else if (url.includes("annotation-counter-ids")) {
-            alert("ids = " + window.localStorage.getItem(KEY));
+            alert("IDs annotated = " + window.localStorage.getItem(KEY));
         }
     }
   }
