@@ -1,6 +1,6 @@
 {
     "name": "Annotation Counter",
-    "version": "3.2",
+    "version": "3.3",
     "description": "Count IDs of videos annotated!!",
     "permissions": ["storage"],
     "background": {

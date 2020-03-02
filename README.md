@@ -7,4 +7,4 @@ When you first navigate to macula.eecs.umich.edu, you should receive an alert di
 
 Once you're done annotating, search "annotation-counter-ids" (so that it appears in the page URL) and you'll receive an alert dialog with the list of video IDs that you have annotated.  It's best practice to save the IDs to a text file after each session (and don't clear window.localStorage...that's where they're stored!)
 
-Note that removing the extension from Chrome may cause the list of IDs to be lost.
+To clear the list of IDs, search "clear-annotation-counter-ids" and confirm that you wish to clear the list of IDs annotated.  Note that removing the extension from Chrome may cause also the list of IDs to be lost.
